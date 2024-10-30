@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "bestseller-lists-from-new-york-times/ui",
+  "title": "Bestseller Lists from NYT: ui",
+  "supports": {
+    "inserter": false
+  },
+  "style": "file:./public.css",
+  "viewScript": "file:./public.js"
+}

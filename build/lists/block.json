@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "bestseller-lists-nyt/lists",
+  "title": "Bestseller Lists from NYT",
+  "description": "Show a widget to display all the bestseller lists from the New York Times",
+  "category": "embed",
+  "keywords": [
+    "books",
+    "new york times"
+  ],
+  "apiVersion": 2,
+  "attributes": {
+    "initialList": {
+      "type": "string",
+      "default": "hardcover-fiction"
+    },
+    "displayImages": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
